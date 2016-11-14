@@ -1,7 +1,7 @@
 {
-  "name": "node-catapult",
+  "name": "My Service",
   "version": "1.0.0",
-  "description": "A rapid project starter for node and browserify.",
+  "description": "An attempt to help Individual Lead A Church Service.",
   "main": "server/index.js",
   "babel": {
     "presets": [
@@ -15,7 +15,7 @@
     "test_server": "./scripts/test_server.sh",
     "test": "./scripts/test_client.sh && ./scripts/test_server.sh"
   },
-  "author": "Gilbert <gilbertbagrza@gmail.com>",
+  "author": "Abel <aecostilla@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.2",
@@ -44,13 +44,4 @@
     "type": "git",
     "url": "https://github.com/mindeavor/node-catapult"
   },
-  "keywords": [
-    "boilerplate",
-    "browserify",
-    "express"
-  ],
-  "bugs": {
-    "url": "https://github.com/mindeavor/node-catapult/issues"
-  },
-  "homepage": "https://github.com/mindeavor/node-catapult"
 }
