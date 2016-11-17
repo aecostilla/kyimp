@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": "true",
+    ".write": "true",
+    "prayerCard" : {
+      ".validate": "newData.hasChildren(['title', 'author', 'message', 'count'])",
+      "title" : {},
+      "author": {},
+      "message": {},
+      "count": {},
+    }
+  }
+}

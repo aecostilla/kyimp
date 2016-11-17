@@ -1,6 +1,6 @@
-var browserify = require('browserify-middleware')
-var express = require('express')
-var Path = require('path')
+var browserify = require('browserify-middleware');
+var express = require('express');
+var Path = require('path');
 
 var routes = express.Router()
 
