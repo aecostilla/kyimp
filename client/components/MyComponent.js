@@ -50,7 +50,9 @@ export default class App extends Component {
         <MuiThemeProvider muiTheme={muiTheme}>
           <div>
             <NavBar title="Keep Me in your Prayers"/>
-            { this.state.prayers ? this.renderPrayerCard() : null}
+            <div className="PrayerCards" style={{ marginTop: '7%' }}>
+              { this.state.prayers ? this.renderPrayerCard() : null }
+            </div>
           </div>
         </MuiThemeProvider>
     );

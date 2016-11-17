@@ -20,7 +20,7 @@ export default class NavBar extends Component {
       left: 0,
       zIndex: 100,
       width: '100%',
-      height: '10%',
+      height: 64,
       paddingRight: 30,
     }
     return (
