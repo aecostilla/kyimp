@@ -14,16 +14,6 @@ routes.get('/app-bundle.js',
   })
 )
 
-//
-// Example endpoint (also tested in test/server/index_test.js)
-//
-routes.get('/api/tags-example', function(req, res) {
-  res.send(['node', 'express', 'browserify', 'react', 'sass'])
-})
-
-//
-// Static assets (html, etc.)
-//
 var assetFolder = Path.resolve(__dirname, '../client/public')
 routes.use(express.static(assetFolder))
 

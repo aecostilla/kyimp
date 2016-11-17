@@ -26,7 +26,6 @@ export default class PrayerCard extends Component {
       message: this.state.message,
       count: add
     }).then((data) => {
-      console.log('data add count', data, add);
       this.setState({ count: add });
     });
   }

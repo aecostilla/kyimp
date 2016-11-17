@@ -13,9 +13,6 @@ export default class NavBar extends Component {
       showModal: false
     };
   }
-  handleAdd(){
-    console.log('Show Modal to add Prayer');
-  }
   render() {
     return (
       <AppBar
