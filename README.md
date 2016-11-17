@@ -37,4 +37,4 @@ Browserify-Middleware is used to babelify, bundle, and compile all code and styl
 
 ## Deployment 
 
-I had some trouble getting the app-bundle.js to work with firebase. My work around was to browserify it manually and add the bundled js file into the client/public directory. Then update the firebase.json file to redirect to the new file. Apart from this minor issue, firebase has great documentation on [Hosting](https://firebase.google.com/docs/hosting/).
+I had some trouble getting the app-bundle.js to work with firebase. My work around was to [browserify](http://browserify.org/) it manually and add the bundled js file into the client/public directory. Then update the firebase.json file to redirect to the new file. Apart from this minor issue, firebase has great documentation on [Hosting](https://firebase.google.com/docs/hosting/).
