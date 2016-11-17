@@ -1,8 +1,8 @@
-# Node Catapult - React - SASS
+# Keep You In My Prayers - React - Firebase
 
-A React and SASS enhanced fork of [mindeavor](https://github.com/mindeavor)'s boilerplate starter project: [node-catapult](https://github.com/mindeavor/node-catapult).
+A React and Firebase project made with a boilerplate starter project fork of [mindeavor](https://github.com/mindeavor).
 
-Use as a minimal starting point for rapidly building React apps.
+An attempt to help a congregation keep track of their Prayers.
 
 Please see the original project for a lot of great documentation on rapidly building node/express apps with the boilerplate.
 
@@ -29,14 +29,12 @@ To run all tests, simply run `npm test`.
 
 Additionally, you can run just client-side tests with `npm run test_client` or just server-side tests with `npm run test_server`.
 
-### Using SASS
-
-Node Catapult-React-SASS uses scssify to bundle all .sass, .css, and .scss files. All client-side code and stylesheets are packaged into a single app-bundle.js file.
-
-To use, simply place .sass, .css, or .scss files in the sass directory. They can then be imported into app.sass for automatic inclusion.
-
 ## Browserify-Middleware
 
 Like the original project, Node Catapult-React-SASS relies on [browserify-middleware](https://github.com/ForbesLindesay/browserify-middleware).
 
 Browserify-Middleware is used to babelify, bundle, and compile all code and stylesheets into a single app-bundle.js file for inclusion in index.html.
+
+## Deployment 
+
+I had some trouble getting the app-bundle.js to work with firebase. My work around was to browserify it manually and add the bundled js file into the client/public directory. Then update the firebase.json file to redirect to the new file. Apart from this minor issue, firebase has great documentation on [Hosting](https://firebase.google.com/docs/hosting/).
